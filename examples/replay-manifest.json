@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Demo 1",
+    "args": [
+      "agent.py",
+      "--age",
+      "8",
+      "--deadline",
+      "5"
+    ],
+    "expected": "examples/Demo 1.stdout.txt"
+  },
+  {
+    "name": "Acknowledged incident",
+    "args": [
+      "agent.py",
+      "--age",
+      "8",
+      "--deadline",
+      "5",
+      "--acknowledged"
+    ],
+    "expected": "examples/Acknowledged incident.stdout.txt"
+  }
+]
