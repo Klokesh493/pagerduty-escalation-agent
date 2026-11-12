@@ -2,7 +2,7 @@
 
 ## Business problem
 
-Offline decision helper for incident acknowledgment and escalation.
+A responder needs a consistent decision on whether an unacknowledged incident has reached its escalation deadline.
 
 ## Reproduce the workflow
 

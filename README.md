@@ -8,6 +8,10 @@ Run `python3 agent.py --age 8 --deadline 5` to produce `escalate`. The helper ma
 
 Run `make verify` with Make and Python 3 installed. The target runs the documented sample through the project CLI.
 
+## Business problem
+
+A responder needs a consistent decision on whether an unacknowledged incident has reached its escalation deadline.
+
 ## Project walkthrough
 
 ```mermaid
