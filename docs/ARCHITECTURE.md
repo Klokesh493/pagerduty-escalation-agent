@@ -4,11 +4,14 @@ Offline decision helper for incident acknowledgment and escalation.
 
 ```mermaid
 flowchart LR
-    N0["CLI arguments"]
-    N1["agent.py"]
-    N2["Compare elapsed minutes to the acknowledgment deadline before recommending escalation."]
-    N3["Result for operator review"]
-    N0 --> N1 --> N2 --> N3
+    A["Incident age, deadline, and acknowledgment"]
+    B["Validate timing and check acknowledgment"]
+    C{"Acknowledgment received?"}
+    D["Return acknowledged"]
+    E["Compare age to deadline for wait or escalate"]
+    A --> B --> C
+    C -->|Yes| D
+    C -->|No| E
 ```
 
 ## Operational boundaries
