@@ -2,6 +2,8 @@
 
 A responder needs a consistent decision on whether an unacknowledged incident has reached its escalation deadline.
 
+[Skills and verification](docs/ENGINEERING_NOTES.md)
+
 ## What I built
 
 I built a PagerDuty-style decision CLI that validates the incident age and deadline, prioritizes acknowledgment status, and recommends wait or escalate based on the deadline.
